@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* CSS Document */
+/**************FONTS************/
+
+@font-face {
+	font-family: 'monof55';
+	src: url('fonts/mono/monof55.eot');
+	src: local('monof55'), url('fonts/mono/monof55.woff') format('woff'), url('fonts/mono/monof55.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_368">Text with this font applied</p> */
+.fontsforweb_fontid_368 {
+	font-family: 'monof55' !important;
+}
+/*********************************************/
+
+.bs-example{
+    	margin: 20px;
+    }
+html {   }
+body { background:url(../img/background3.jpg); }
+main { margin-top:7em; }
+.navbar-brand {   }
+.navbar-fixed-top {/* height:50px; */ background:#000 !important; opacity:.9;  font-family:'monof55'; font-size:1.1em; }
+#logo { max-width:150px; width:100%; background:#000; padding:0 1em 1em 1em; margin-left:3em; }
+.navbar-fixed-top a { text-shadow:none !important; color:#FFF !important; }
+.navbar-fixed-top a:hover { color:#3C6 !important; }
+.navbar-nav.navbar-right:last-child { margin-right: 5em; text-transform:uppercase; color:#FFF;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+border-color: #e7e7e7; background: #222;  }
+#solgan { margin: 0 1em; font-size: 1em; font-weight: bold; font-style: italic; opacity:.75;  }
+#cart_coming_soon {color:#900; margin-left:5em; visibility:hidden; position: fixed; }
+#cart_new { background:#CCC; margin:-81em 0 0 -19em; width:240px; }
+#red {color:#900; }
+#black {font-weight:bold; color:#FFF; background:#000; padding:3%; margin:1%; } 
+#black:hover { color:#000; background:#900; }
+
+/*****************LINKS*********************/
+a { color:#906 !important; }
+
+
+/*************LOGIN PAGE STYLES *********************/
+
+#ptitle {  padding:.5em 0; width:100%; max-width:1280px;  }
+#ptitle h1 {  font-weight:bolder; font-family:"Arial Black", Gadget, sans-serif; font-size:2.5em;  }
+#ptitle h3 { margin:0 1em; font-size.75em; }
+#loginForm  {  padding:2em 1em; /*border: #069 solid 3px; background:url(../img/product_bg_2.png); */}
+#loginForm p { font-size:1.25em; }
+#uusername, #password { margin:1em; }
+
+#loginForm input[type="submit"] { max-width:175px; width:100%; padding:1em; background: #000; color: #fff; margin:1em ; font-family:'monof55'; }
+#loginForm input[type="submit"]:hover { color:#3C0; }
+
+/******PRODUCT PAGE **************/
+img { vertical-align:bottom !important; width:100%; } 
+#product_display { float:right; }
+#container {  display: inline-block; border: #999 solid 3px; margin:1em 4em; background:url(../img/product_bg_4.png); max-height:356px;  }
+#container3 {display: inline-block; border: #999 solid 3px; margin:1em 4em; background:url(../img/product_bg_4.png);  }
+#container_img {  display: inline-block; border: #999 solid 3px; margin: 1em 0;  max-height:356px;  }
+#pHeader {padding:1em;text-align:center; }
+#id {font-family:"Arial Black", Gadget, sans-serif; float:left; font-size:1.25em; margin-right:3%; }
+h2 {margin:0; font-family:'monof55',sans-serif; text-transform:uppercase; font-size:1.75em; }
+h2:hover {text-decoration:underline; }
+
+#pFooter {  padding:0 1em; display:inline-block;  }
+h3 {margin:0; font-size:1.25em;}
+h4 { margin:0; font-size:1.25em; float:left;}
+#fill { }
+#price { margin:1em 0; font-size:1.25em; }
+
+#moreInfo {font-family:Helvetica, sans-serif; width:100%; font-style: italic; cursor: pointer; border:none; margin:4% 0 0 0;  padding:none; background:none; }
+#moreInfo:hover { color:#428bca; text-decoration:underline; }
+#delete {font-family: Helvetica, sans-serif; width:100%; font-style: italic; cursor: pointer; border:none; margin:4% 0 0 0;  padding:none; }
+#sorting { text-align:right; margin-right:2em; }
+#sorting h5 { font-family:'monof55'; font-size:1.5em; font-weight:bold; }
+#sort { margin-right:2%; font-style:italic;  }
+div#ptitle h5 { font-weight:bold; }
+
+#product_img { -webkit-transition: all .2s ease-in-out; }
+#product_img:hover { -webkit-transform: scale(1.1); }
+#add_btn {padding:.9em; }
+
+/*********************Product Details **********************/
+#full_image { -webkit-transition: all .2s ease-in-out; }
+#full_image:hover { -webkit-transform: scale(1.1); }
+#lg_ptitle { margin:0 0 3em 0; }
+#lg_ptitle h1 { font-weight:bolder; font-family:"Arial Black", Gadget, sans-serif;  }
+
+#lg_ptitle #viewall  { color:#000 !important; }
+#lg_ptitle #viewall:hover { color:#069 !important; }
+/*{color:#FFF; }*/
+#container2 {margin:0 1em 0 2em; width:70%;  padding:1em; border: #999 solid 5px; background:url(../img/product_bg_4.png); float:left;}
+#pHeader2 { font-size:1.25em; width:100%;  }
+#name2 { font-family: 'monof55'; }
+#bio {max-height:275px; padding:1em .5em;  }
+#desc {line-height:1.25; font-size:1em; }
+#pFooter2 { padding:4% 2%; font-size:1.5em;   }
+#fill2 { float:left; }
+#price2 {float: right; }
+
+/***********Add Product Page***********/
+label { display:block !important; margin-top:20px; letter-spacing:2px; }
+/* Centre the page */
+.body {
+    display:block;
+    margin:0 auto;
+    width:576px;
+}
+
+/* Centre the form within the page */
+form#addForm, form#contact {
+    margin:1em 5em;
+}
+
+/* Style the text boxes */
+#addForm input, #addForm textarea, #contact input, #contact textarea {
+	max-width:439px;
+	width:100%;
+	height:38px;
+	background:#FFF;
+	/*border:1px solid #dedede;*/
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+	-moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+#addForm textarea#newdescript { height:80px; }
+#addForm input:focus, #addForm textarea:focus, #contact input:focus, #contact textarea:focus {
+    border:1px solid #97d6eb;
+}
+#addFrom #submit, #contact #submit {
+    width:127px;
+    height:38px;
+	background:#000;
+	color:#fff;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+#contact #submit { display:block; }
+	 #contact #submit:hover {
+	    opacity:.9;
+		color:#3C0;
+	}
+#addForm input[type="submit"], #addForm input#reset1 { padding: .5em 0 2em; background: #000; color: #fff; font-family:'monof55'; font-size: 1.2em ;margin-top: 1em; max-width:150px; }
+#addForm input#reset1 { background:#444; }
+#addForm input[type="submit"]:hover, #addForm input#reset1:hover{ color:#3C0; }	
+
+/************REVIEWS ************/
+#wrapper5 { padding: 2em; }
+#backtobags {color:#fff; margin-right:2%;   }
+#username {font-size:1.75em; color:#900; font-weight:bold; font-family:'monof55'; margin-bottom:0;}
+#location {font-size:1em; color:#666; font-style:italic; margin:0 0 0 1%; }
+#udate { font-size:.75em; color:#666; margin:0 0 0 1%; }
+#ubag { font-size:.75em; font-weight:bold; color:#900; opacity:.75; margin:0 0 0 1%; text-transform:uppercase; }
+#urating { font-size:1em; margin:0 0 0 1%; text-transform:uppercase; font-weight:bold; font-style:italic; }
+#ureview { font-size:1em; margin:0 0 0 1%; }
+strong {font-weight:bold; }
+
+/**********HOME PAGE**********/
+p {font-size:1em; padding:1em; }
+
+/**********wrapper***************/
+#wrapper2, #wrapper3 { max-width:1280px; }
+
+/***********Media Queries *************/
+@media screen and (min-width:480px){
+	#container { margin:1em 1.1em; }
+	#container_img {margin:1em .75em; }
+}
+@media screen and (min-width:600px){
+	#logo { margin-left:4em; }
+	#solgan { font-size: 2.25rem; }
+	#sorting { margin-right:8em; }
+	label { font-size:1.1rem; }
+	#pHeader2 { font-size:1.75rem;}
+	#bio {max-height:375px;   }
+	#desc {font-size:1.25rem; }
+	#pFooter2 { font-size:1.75rem; }
+	#ptitle h1 {  font-size:3rem;  }
+	#loginForm input[type="submit"] {max-width:185px; margin: 1em 1em 0 1em; }
+	
+	
+}
+
+@media screen and (min-width:768px){
+	#logo { margin-left:5em; }
+	#solgan { font-size: 2.5rem; }
+	#sorting { margin-right:6em; }
+	label { font-size:1.3rem; }
+	#pHeader2 { font-size:2.25rem;}
+	#bio {max-height:375px;   }
+	#desc {font-size:1.5rem; }
+	#pFooter2 { font-size:2rem; }
+	#ptitle h1 {  font-size:3.5rem;  }
+	#shopping-cart { margin:2em; }
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form { background:none;  }
+	.navbar-fixed-top {height:50px; }
+	.navbar-nav.navbar-right:last-child { margin-right: 20px !important; }
+
+@media screen and (min-width:1280px){
+	#logo { margin-left:5em; }
+	#solgan { font-size: 2.25rem; }
+	#sorting { margin-right:2em; }
+	label { font-size:1.5rem; }
+	#pHeader2 { font-size:2.75rem;}
+	#bio {max-height:375px;  }
+	#desc {font-size:1.7rem; }
+	#pFooter2 { font-size:2.75rem; }
+	#cart_coming_soon { margin-top:180px; visibility:visible; }
+	#ptitle h1 {  font-size:4rem;  }
+	#shopping-cart { margin:5em; }
+	p {font-size:1.7rem; }
+}

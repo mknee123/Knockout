@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<reviews>
+	<customer id="5">
+		<username>soccerMama_87</username>
+		<country>Mexico</country>
+		<todaysdate>05-28-2014</todaysdate>
+		<footbag>Marely and Hathor</footbag>
+		<rating>4/5</rating>
+		<review>I personally have not used these footbags but I did buy the Marely and Hathor for my sons.  They start getting into this Hackysack thing about a year ago and we were going footbag after footbag.  The great thing about knockOUT's footbags is they are extremely durable.  My kids have yet to tear them apart.  I was also super pleased with the shipping time.  Arrived on time and in great condition!  I am extermely satisified with my experience</review>
+	</customer>
+	<customer id="4">
+		<username>McLovin_88</username>
+		<country>Brazil</country>
+		<todaysdate>06-2-2014</todaysdate>
+		<footbag>Joey-D</footbag>
+		<rating>3/5</rating>
+		<review>I've only bought from this place once and got the knit cloth Joey-D.  I was fairly satisified with it.  Took awhile to get to me after I order it.  Like a week and half.  However this guy can take a beating.  I've dropped and slammed him on the ground at least 1000 times and the sucker is still in one piece.  Guess the knit cloth is pretty durable.</review>
+	</customer>
+	<customer id="3">
+		<username>2KneeNoArrow</username>
+		<country>United States</country>
+		<todaysdate>06-13-2014</todaysdate>
+		<footbag>Knight Wing</footbag>
+		<rating>4/5</rating>
+		<review>I was pretty satisfied with my experience with knockOUT.  I've been playing this game for about year now and I have found I can achieve much more stability with Knight Wing than most of footbags I have used.  The sand fill really does help me out with trick moves like balancing poses.  I was also pretty satisified with delivery service.  These guys know how to show up on time.  </review>
+	</customer>
+	<customer id="2">
+		<username>BrightEyes_Shine</username>
+		<country>Canada</country>
+		<todaysdate>06-21-2014</todaysdate>
+		<footbag>Nova New, Slacker, The Twins</footbag>
+		<rating>5/5</rating>
+		<review>I have bought several footbags from knockOUT.  They never let me me down.  I own Nova New, Slacker and I just recently got The Twins!  Usually I am cheapskate, but since I've enjoy Nova and Slacker so much I dedcided to spring for someething more pricey.  TOTALLY worth it!  I've never had footbags last as long as the ones I bought from knockOUT.  I've been the hacking for years and I am not one to go easy.  I typically go through one footbag a week.  Not the case with knockout.</review>
+	</customer>
+	<customer id="1">
+		<username>Bruno_Mars</username>
+		<country>United Kingdom</country>
+		<todaysdate>06-28-2014</todaysdate>
+		<footbag>Humminbird</footbag>
+		<rating>5/5</rating>
+		<review>Absolutely, hands down, sickest hacky sack I own.  The handle on the Hummingbird is just flawless.  I can not get balance like this with any of my other hacky sacks.  I would certainly recommend this bag to other players!</review>
+	</customer>
+
+</reviews>
